@@ -1,9 +1,14 @@
 import Image from "next/image";
+import Success from "./component/Success";
+import Banner from "./component/Banner";
+import Feature from "./component/Feature";
 
 export default function Home() {
   return (
     <div>
-      <h1>hello</h1>
+      <Banner></Banner>
+      <Feature></Feature>
+      <Success></Success>
     </div>
   );
 }
