@@ -9,7 +9,7 @@ const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     return (
-        <nav className="w-full bg-black shadow-md">
+        <nav className="w-full bg-black shadow-md sticky z-10 top-0">
             <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
                 {/* Left: Logo */}
                 <div className="flex items-center">
