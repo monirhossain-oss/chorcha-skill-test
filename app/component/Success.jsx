@@ -41,7 +41,7 @@ const cards = [
 export default function Success() {
     return (
         <div>
-            <h2 className='text-4xl font-medium text-center'>চর্চার সাফল্য</h2>
+            <h2 className='text-4xl font-medium text-center mt-10'>চর্চার সাফল্য</h2>
             <div className="container mx-auto px-6 py-4">
                 <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {cards.map((card, index) => (
